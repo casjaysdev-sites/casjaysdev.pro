@@ -38,7 +38,7 @@ form:
     subject: "jekyll-casjaysdev Contact Form"
     title: "jekyll-casjaysdev"
     env: "REMOTE_HOST,HTTP_USER_AGENT"
-    return_link: 
+    return_link:
       url: "javascript: history.go(-1)"
       title: "Back to Main Page"
     fields:
@@ -53,7 +53,7 @@ form:
       link_color: "#ffffff"
       vlink_color: "#ffffff"
       alink_color: "#ffffff"
-  
+
 # only set one of columns_ to enabled
 # set a custom theme - includes/themes
 # hacker
@@ -114,7 +114,7 @@ webmaster_verifications:
 # github options
 github:
   show: false
-  repo: 
+  repo:
   user: CasjaysDev
   avatar: casjaysdev
   forkme: false
@@ -132,7 +132,7 @@ options:
   piwik: true
   discord: true
   clock: false
-  
+
 # // TODO: Blog settings advanced feature
 blog:
   enabled:
@@ -171,7 +171,7 @@ statuscounter:
   url: //c.statcounter.com/8585230/0/ef07ac24/0/
 
 # Name of theme
-theme: casjaysdev-jekyll-theme
+# theme: casjaysdev-jekyll-theme
 
 # You don't need to change any of the configuration flags below !!
 permalink: pretty
