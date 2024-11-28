@@ -21,7 +21,7 @@ baseurl: ""
 # set site author
 author:
   name: CasjaysDev
-  url: http://casjay.pro
+  url: http://casjaysdev.pro
 
 # set gallery image url
 gallery: /images
@@ -171,7 +171,8 @@ statuscounter:
   url: //c.statcounter.com/8585230/0/ef07ac24/0/
 
 # Name of theme
-# theme: casjaysdev-jekyll-theme
+# theme:
+# casjaysdev-jekyll-theme
 
 # You don't need to change any of the configuration flags below !!
 permalink: pretty
@@ -233,7 +234,7 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   sass_dir: _sass
-  style: :expanded
+  style: expanded
 
 jekyll_tidy:
   compress_html: true
@@ -270,7 +271,6 @@ exclude:
   - CNAME
   - .keep
   - .gitkeep
-
 #webrick:
 #  headers:
 #    Access-Control-Allow-Origin: "*"
